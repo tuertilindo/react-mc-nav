@@ -8,7 +8,7 @@ export default class Page extends React.Component {
       pages.push(<Route path={'/' + key} component={this.props.pages[key]} />)
     }
     for (var keyi in this.props.ids) {
-      pages.push(<Route path={'/' + keyi + '/:id'} component={this.props.pages[keyi]} />)
+      pages.push(<Route path={'/' + keyi + '/:id'} component={this.props.ids[keyi]} />)
     }
     return (<div>
       <Router history={hashHistory}>
