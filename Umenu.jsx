@@ -14,10 +14,13 @@ export default class Umenu extends React.Component {
   render () {
     var pages = [<DropdownItem onClick={() => { Goto('') }}><Boton image={'images/home.png'} span={'Inicio'} /></DropdownItem>]
     for (var key in this.props.pages) {
-      pages.push(<DropdownItem onClick={() => { Goto(key) }}><Boton image={'images/' + key + '.png'} span={key.charAt(0).toUpperCase() + key.slice(1)} /></DropdownItem>)
+      const pat = key
+      pages.push(<DropdownItem onClick={() => { Goto(pat) }}><Boton image={'images/' + key + '.png'} span={key.charAt(0).toUpperCase() + key.slice(1)} /></DropdownItem>)
     }
     pages.push(<Divider />)
-    pages.push(<Useritem />)
+    if (this.props.userlink) {
+      pages.push(<Useritem />)
+    }
 
     return (<Dropdown opened={false} color="primary" label={<img src="images/menu.png" />}>
       {pages}

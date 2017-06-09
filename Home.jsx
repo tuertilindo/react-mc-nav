@@ -6,7 +6,7 @@ export default class Page extends React.Component {
     return (
       <div className="topmenu">
         <Appbar className="mui--z1">
-          <Umenu pages={this.props.pages || this.props.route.pages} />
+          <Umenu pages={this.props.pages || this.props.route.pages} userlink={this.props.userlink || this.props.route.userlink} />
         </Appbar>
         {this.props.children}
       </div>

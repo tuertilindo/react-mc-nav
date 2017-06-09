@@ -1,24 +1,61 @@
 {
-  "name": "react-mc-nav",
-  "version": "1.0.0",
-  "description": "Template for react webapp with google login",
-  "main": "Pages.jsx",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "react-mc-nav@git+https://github.com/tuertilindo/react-mc-nav.git",
+        "scope": null,
+        "escapedName": "react-mc-nav",
+        "name": "react-mc-nav",
+        "rawSpec": "git+https://github.com/tuertilindo/react-mc-nav.git",
+        "spec": "git+https://github.com/tuertilindo/react-mc-nav.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:tuertilindo/react-mc-nav.git",
+          "sshUrl": "git+ssh://git@github.com/tuertilindo/react-mc-nav.git",
+          "httpsUrl": "git+https://github.com/tuertilindo/react-mc-nav.git",
+          "gitUrl": "git://github.com/tuertilindo/react-mc-nav.git",
+          "shortcut": "github:tuertilindo/react-mc-nav",
+          "directUrl": "https://raw.githubusercontent.com/tuertilindo/react-mc-nav/master/package.json"
+        }
+      },
+      "D:\\proyectos\\sgcore\\sgapp"
+    ]
+  ],
+  "_from": "git+https://github.com/tuertilindo/react-mc-nav.git",
+  "_id": "react-mc-nav@1.0.0",
+  "_inCache": true,
+  "_location": "/react-mc-nav",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-mc-nav@git+https://github.com/tuertilindo/react-mc-nav.git",
+    "scope": null,
+    "escapedName": "react-mc-nav",
+    "name": "react-mc-nav",
+    "rawSpec": "git+https://github.com/tuertilindo/react-mc-nav.git",
+    "spec": "git+https://github.com/tuertilindo/react-mc-nav.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:tuertilindo/react-mc-nav.git",
+      "sshUrl": "git+ssh://git@github.com/tuertilindo/react-mc-nav.git",
+      "httpsUrl": "git+https://github.com/tuertilindo/react-mc-nav.git",
+      "gitUrl": "git://github.com/tuertilindo/react-mc-nav.git",
+      "shortcut": "github:tuertilindo/react-mc-nav",
+      "directUrl": "https://raw.githubusercontent.com/tuertilindo/react-mc-nav/master/package.json"
+    }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tuertilindo/react-mc-nav.git"
-  },
-  "dependencies": {
-    "muicss": "0.9.9-rc2",
-    "object-assign": "4.1.1",
-    "react": "15.4.2",
-    "react-mc-controls": "github:tuertilindo/react-mc-controls",
-    "react-mc-google": "git+https://github.com/tuertilindo/react-mc-google.git",
-    "react-router": "3.0.2",
-    "reflux": "^6.4.1"   
-
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/tuertilindo/react-mc-nav.git#98b96e033da8008dfdcd53c1ef80ebfa06bba105",
+  "_shasum": "91e240cdf2a55db563a1e30c7b7da83a1a70f645",
+  "_shrinkwrap": null,
+  "_spec": "react-mc-nav@git+https://github.com/tuertilindo/react-mc-nav.git",
+  "_where": "D:\\proyectos\\sgcore\\sgapp",
+  "author": {
+    "name": "Tuertilindo"
   },
   "browserify": {
     "transform": [
@@ -33,6 +70,19 @@
       ]
     ]
   },
+  "bugs": {
+    "url": "https://github.com/tuertilindo/react-mc-nav/issues"
+  },
+  "dependencies": {
+    "muicss": "0.9.9-rc2",
+    "object-assign": "4.1.1",
+    "react": "15.4.2",
+    "react-mc-controls": "github:tuertilindo/react-mc-controls",
+    "react-mc-google": "git+https://github.com/tuertilindo/react-mc-google.git",
+    "react-router": "3.0.2",
+    "reflux": "^6.4.1"
+  },
+  "description": "Template for react webapp with google login",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.4.5",
@@ -43,6 +93,8 @@
     "browserify": "^13.1.0",
     "webpack": "^2.1.0-beta.27"
   },
+  "gitHead": "98b96e033da8008dfdcd53c1ef80ebfa06bba105",
+  "homepage": "https://github.com/tuertilindo/react-mc-nav#readme",
   "keywords": [
     "react",
     "google",
@@ -50,10 +102,18 @@
     "template",
     "web"
   ],
-  "author": "Tuertilindo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tuertilindo/react-mc-nav/issues"
+  "main": "Pages.jsx",
+  "name": "react-mc-nav",
+  "optionalDependencies": {},
+  "readme": "# react-mc-nav\r\nTemplate for webapp with menu and google login\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuertilindo/react-mc-nav.git"
   },
-  "homepage": "https://github.com/tuertilindo/react-mc-nav#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
